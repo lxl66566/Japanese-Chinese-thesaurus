@@ -1,6 +1,8 @@
 # Japanese-Chinese-thesaurus
 日语词库整合，中日词典
 
+[前往 releases 下载](https://github.com/lxl66566/Japanese-Chinese-thesaurus/releases/latest)
+
 这是一个编码为 `utf-8`，`.json` 格式，包含 12716 条释义的日中词库。
 
 所有`.json`文件（包括中间产物）以日语（汉字优先）作为键，假名，语调（部分），词性（部分），中释作为值。
