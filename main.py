@@ -127,5 +127,5 @@ def merge():
 
 if __name__ == '__main__':
     merge()
-    with open('nihonngo_for_final.json','w',encoding='utf-8') as fin:
-        json.dump(findic,fin,indent = 4,sort_keys = True)
+    with open('final.json','w',encoding='utf-8') as fin:
+        json.dump(findic,fin,indent = 4,sort_keys = True,ensure_ascii=False)
